@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'FreeSerif-Italic'; 
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+}
+
+html {
+    box-sizing: border-box;
+  }
+*,*:before, *:after{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif ;
+    /* box-sizing: inherit;
+     */
+}
+.dashboard{
+    background-color: #05050f !important;
+    height: 100%;
+    width: 100%;
+
+}
+.nav-link{
+    display: flex;
+    background-color: #14142b;
+    color: #fff;
+    margin-right: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+}
+.nav-link H1{
+    margin-left: 3rem;
+    margin-right: 5rem;
+}
+.custom-tab{
+    background-color: #14142b !important;
+    border: 1px solid #14142b !important ;
+    font-size: 1rem;
+    
+}
+.custom-tab--selected {
+    color: #FFF !important;
+    border-bottom: 5px solid  #5A5A89 !important;
+    
+}
+
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05050f !important;
+   height: 4.5rem;
+}
+.title-bar P{
+    color: #5A5A89 !important;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+}
+.btn-group{
+    display: flex;
+    margin-right: 1rem;
+}
+/* #my-date-picker-single{
+    border-radius:2px;
+    margin-right: 0.5rem;
+    background-color: #023aff !important;
+
+} */
+.title-bar Button{
+    color: #FFF!important;
+    background-color: #023aff !important;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 50px;
+    margin-right: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.page{
+    height: auto;
+    color: #FFF!important;
+    background-color: #05050f !important;
+    
+}
+.top-container{
+   
+    background-color: #05050f !important;
+    
+}
+.top-row{
+   display: grid;
+   grid-template-columns: 1fr 2fr 2fr;
+   gap: 1rem;
+   border-radius: 10px;
+   height: 100%;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 0.5rem;
+}
+.top-row>Div{
+    background-color: #14142b !important;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+
+.bottom-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    height: 35rem;
+    background-color: #05050f !important;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+.bottom-container>Div{
+    background-color: #14142b !important;
+    height: 34rem;
+    border-radius: 10px;
+}
+
+.table-head{
+    color:#5A5A89;
+    margin-bottom: 1rem;
+}
+.table-row{
+    margin: 1rem;
+    
+}
+.DateInput_input {
+    color: #FFF!important;
+    background-color: #023aff !important;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 50px;
+    margin-right: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+
+}
+.SingleDatePickerInput{
+    border: none;
+    background-color: #05050f !important;
+    /* border-radius: 50px !important; */
+}
+
+
+/* Report Page */
+
+.report{
+    background-color: #05050f  !important;
+    color:#fff;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    
+    /* padding-block: 2rem; */
+    /* width: min(95%,70rem); */
+    /* margin-inline: auto; */
+}
+.grid-col-span-2{
+    grid-column: span 2;
+  
+}
+.container-data{
+    background-color:#14142b;
+    height:auto;
+    border-radius: 10px;
+}
+.emp-details{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+}
+.emp-name{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.employee_data{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+     color:#5A5A89;
+     font-weight: 800;
+}
+.overall-layout{
+    background-color: #05050f  !important;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem
+}
+.overall-bottom-container{
+    display:flex;
+}
+
+
+.DateInput_input, .DateInput_input_1 {
+    /* my personal stuff */
+    text-align: center;
+    /* line-height: calc(1.5em + 0.75rem); */
+    /* default flatly stuff */
+    /* height: calc(1.5em + 0.75rem + 2px); */
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color:#fff;
+    background-color: blue;
+    background-clip: padding-box;
+    border: 1px solid blue;
+    border-radius: 2rem;
+
+    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+  }
+
+  .DateInput{
+    background-color:#05050f;
+    margin-right: 1rem;
+  }
+ /* input box */
+.Select-control {
+    background-color: #14142B;
+}
+
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: white !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border-bottom: 1px solid #5A5A89;
+    border-radius: 4px;
+}
+
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: #14142B;
+    color: white;
+ }
+
+
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: #14142B;
+    opacity: .7;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: var(--primary); 
+  box-shadow: none;
+}
+
+
+/* style for insight page */
+
+.insight-layout{
+    background-color: #05050f !important;
+    color: #FFF;
+    display: flex;
+    height: 55rem;
+    
+}
+.utilized-time{
+     background-color: #05050f !important;
+}
+
+.graph-container{
+    background-color: #14142B !important;
+    color: #FFF;
+    margin: 2rem 1rem;
+    height: fit-content;
+    width: 60%;
+
+
+}
+/* insight page data container */
+.parent-div {
+    background-color: #14142B !important;
+    font-family: 'poppins' !important;
+    color: white;
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    height: fit-content;
+    
+}
+
+.unutilized-main-container {
+    background-color: #05050F;
+    font-family: 'poppins' !important;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.total-unutilized-container {
+    font-family: 'poppins' !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.within-service-container {
+    font-family: 'poppins' !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.idle-duration-container {
+    font-family: 'poppins' !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.unutilized-time-container {
+    font-family: 'poppins' !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem;
+    padding-bottom: 0rem;
+}
+
+.potential-loss-container {
+    font-family: 'poppins' !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem;
+}
+
+.unproductive-half-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem;
+    font-family: 'poppins' !important;
+}
+
+.unutilized-formula {
+    font-size: 1rem;
+    color: darkgray;
+    padding-top: 1.5rem;
+    align-items: center;
+    display: flex;
+    font-weight: normal;
+    font-family: 'poppins' !important;
+}
+
+.unutilized-percentage-formula {
+    font-size: 1rem;
+    color: darkgray;
+    padding-left: 1.5rem;
+    align-items: center;
+    display: flex;
+    padding-bottom: 0.5rem;
+    font-weight: normal;
+    font-family: 'poppins';
+}
+
+
+
+
+   

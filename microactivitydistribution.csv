@@ -1,0 +1,7 @@
+Name,Activities,workingHours,Activity,Compliance,AverageDuration
+Technician1,Front Break Maintanance,Full-day,Idle,82,300
+Technician1,Front Break Maintanance,Full-day,Torquing Vertical,93,27
+Technician1,Front Break Maintanance,Full-day,Screw/Unscrew,21,26
+Technician1,Front Break Maintanance,Full-day,Torquing Horizontal,7,30
+echnician1,Front Break Maintanance,Full-day,Pneumatic,9,15
+Technician1,Front Break Maintanance,Full-day,Net Compliance,67,484

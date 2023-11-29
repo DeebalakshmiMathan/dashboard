@@ -1,0 +1,17 @@
+Name,Activities,workingHours,PerformanceDuration,BenchmarkDuration
+Technician1,Front Break Maintanance,Full-day,8.2,9.52
+Technician1,Front Break Maintanance,Half-day,9.2,12.52
+Technician1,rear Break Maintanance,Full-day,10.2,14.52
+Technician1,rear Break Maintanance,Half-day,11.2,15.52
+Technician2,Front Break Maintanance,Full-day,7.2,10.52
+Technician2,Front Break Maintanance,Half-day,8.2,11.52
+Technician2,rear Break Maintanance,Full-day,9.2,13.52
+Technician2,rear Break Maintanance,Half-day,10.2,14.52
+Technician3,Front Break Maintanance,Full-day,9.2,8.52
+Technician3,Front Break Maintanance,Half-day,9.7,11.52
+Technician3,rear Break Maintanance,Full-day,7.6,14.40
+Technician3,rear Break Maintanance,Half-day,10.7,12.16
+Technician4,Front Break Maintanance,Full-day,9.2,7.52
+Technician4,Front Break Maintanance,Half-day,7.2,10.52
+Technician4,rear Break Maintanance,Full-day,9.6,13.60
+Technician4,rear Break Maintanance,Half-day,9.12,8.52
